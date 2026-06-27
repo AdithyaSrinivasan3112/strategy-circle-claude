@@ -5,6 +5,8 @@
 // placeholder (monogram + credential chips) so the build never depends on an
 // image file existing. To use a real photo, see the comment in the markup.
 // -----------------------------------------------------------------------------
+import { Image } from 'astro:assets';
+import portrait from '../assets/images/swetha-ranganathan.png';
 import { advisor } from '../data/advisor';
 import SectionEyebrow from './SectionEyebrow.astro';
 import Button from './Button.astro';
@@ -13,24 +15,16 @@ import Icon from './Icon.astro';
 
 <section class="advisor section" id="advisor">
   <div class="container advisor__inner">
-    <!--
-      PORTRAIT PLACEHOLDER
-      When src/assets/images/swetha-ranganathan.jpg is available, replace the
-      `.portrait` block below with Astro's optimized Image component, e.g.:
-
-        ---
-        import { Image } from 'astro:assets';
-        import portrait from '../assets/images/swetha-ranganathan.jpg';
-        ---
-        <Image src={portrait} alt={advisor.portraitAlt} class="portrait__img"
-               widths={[360, 560, 720]} sizes="(max-width: 880px) 80vw, 420px" />
-    -->
-    <figure class="portrait" data-reveal aria-label={advisor.portraitAlt}>
+    <figure class="portrait" data-reveal>
       <div class="portrait__frame">
-        <div class="portrait__placeholder" role="img" aria-label={advisor.portraitAlt}>
-          <span class="portrait__monogram" aria-hidden="true">SR</span>
-          <span class="portrait__caption" aria-hidden="true">Portrait coming soon</span>
-        </div>
+        <Image
+          src={portrait}
+          alt={advisor.portraitAlt}
+          class="portrait__img"
+          widths={[360, 560, 720]}
+          sizes="(max-width: 880px) 80vw, 420px"
+          loading="lazy"
+        />
         <div class="portrait__chips" aria-hidden="true">
           {advisor.credentials.map((c) => <span class="chip">{c}</span>)}
         </div>
@@ -69,6 +63,8 @@ import Icon from './Icon.astro';
   .portrait {
     position: relative;
     margin: 0;
+    max-width: 420px;
+    width: 100%;
   }
   .portrait__frame {
     position: relative;
@@ -77,6 +73,14 @@ import Icon from './Icon.astro';
     overflow: hidden;
     background-color: var(--color-primary);
     box-shadow: var(--shadow-lg);
+    aspect-ratio: 4 / 4.6;
+  }
+  .portrait__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 32%;
   }
   .portrait__placeholder {
     aspect-ratio: 4 / 5;
@@ -181,6 +185,7 @@ import Icon from './Icon.astro';
     }
     .portrait {
       max-width: 360px;
+      margin-inline: auto;
     }
   }
 </style>
