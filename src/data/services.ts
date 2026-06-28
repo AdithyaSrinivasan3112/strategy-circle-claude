@@ -27,7 +27,7 @@ export const services: Service[] = [
   },
   {
     title: 'Financial & Tax Due Diligence',
-    copy: 'Rigorous analysis and strategic risk assessment. We vet and protect your financial baseline ahead of M&A transactions, joint ventures, or incoming institutional capital.',
+    copy: 'Rigorous analysis and strategic risk assessment during M&A transactions, acquisitions, and investment/funding decisions.',
     icon: 'diligence',
   },
   {
@@ -37,7 +37,7 @@ export const services: Service[] = [
   },
   {
     title: 'Investment Readiness Support',
-    copy: 'Transform your financials into investor-grade assets. Complete data room management, pitch-ready financial modeling, and dedicated advisory throughout institutional due diligence.',
+    copy: 'Designed to provide structural clarity, financial discipline, and regulatory compliance from the early stages of business. Complete data room management, financial modeling, and dedicated advisory throughout financial due diligence.',
     icon: 'investment',
   },
   {

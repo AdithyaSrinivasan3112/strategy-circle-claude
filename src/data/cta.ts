@@ -3,6 +3,6 @@
 export const closingCta = {
   headline: "Let's Build Together",
   body:
-    'Whether you are managing complex contracts, building an investor data room, or setting up DPDP compliance, secure your financial clarity today.',
+    'Whether you\'re raising capital, scaling operations, or navigating compliance, let’s work together. You bring the vision — we bring the financial clarity and strategic guidance to make it happen.',
   action: { label: 'Schedule a Strategy Call', href: '#contact' },
 } as const;

@@ -4,11 +4,11 @@ import { linkedinUrl } from './site';
 export const advisor = {
   heading: 'Meet Swetha Ranganathan, Founder & Chartered Accountant',
   intro:
-    'Swetha Ranganathan is a Chartered Accountant dedicated to helping scaling corporations and high-growth ventures align fast operational models with rock-solid compliance frameworks.',
+    'Swetha Ranganathan is a Chartered Accountant and founder of Strategy Circle, a financial advisory practice for startups, corporates, and investors.',
   body:
-    'With over a decade of hands-on corporate finance experience, Swetha brings deep pedigree from major advisory ecosystems. Her professional background includes pivotal tenures at top-tier institutions like BDO India, Tata Consulting Engineers, MGB Advisors, and HNA LLP (formerly Hiregange and Associates).',
+    'With 10+ years of hands-on experience in finance, tax, compliance, and due diligence—including tenures at BDO India, Tata Consulting Engineers, MGB Advisors, and HNA and Co LLP—she brings deep expertise across industries including engineering consulting, real estate, SaaS, hospitality, manufacturing, and education.',
   sectors:
-    'Her cross-industry advisory expertise spans engineering consultancy, real estate, hospitality, manufacturing, and educational institutions—giving her a rare vantage point on operational risk and fiscal architecture.',
+    'At Strategy Circle, she combines this experience with a hands-on advisory approach. She works alongside founders and finance teams on fractional CFO services, financial due diligence, investment readiness, and business structuring.',
   cta: { label: 'Connect on LinkedIn', href: linkedinUrl },
   // Replace with a real portrait at src/assets/images/swetha-ranganathan.jpg
   portraitAlt: 'Portrait of Swetha Ranganathan, Founder & Chartered Accountant of Strategy Circle',

@@ -15,15 +15,15 @@ export const differenceSection = {
 
 export const pillars: Pillar[] = [
   {
-    title: 'Partner-Led Advisory',
+    title: 'Expert Led',
     subLabel: 'EXPERTISE',
-    copy: 'Every engagement is led directly by a qualified Chartered Accountant, ensuring senior commercial judgment on every decision.',
+    copy: 'Every engagement is led directly by a qualified professional, ensuring senior commercial judgment on every decision.',
     icon: 'partner',
   },
   {
     title: 'A Decade of Precision',
     subLabel: 'INSIGHT',
-    copy: 'Over 10 years of hands-on experience navigating complex corporate finance, indirect taxation, and institutional due diligence.',
+    copy: 'Over 10 years of hands-on experience navigating complex corporate finance, indirect taxation, and financial due diligence.',
     icon: 'precision',
   },
   {

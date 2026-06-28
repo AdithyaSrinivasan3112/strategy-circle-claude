@@ -31,7 +31,7 @@ export const navLinks: NavLink[] = [
 export const site = {
   name: 'Strategy Circle',
   tagline:
-    'Financial Advisory & Compliance Consulting for startups, scale-ups, and corporate teams.',
+    'Financial advisory and compliance partner for high-growth startups, scale-ups, and corporate teams.',
   founder: 'Swetha Ranganathan',
   founderTitle: 'Founder & Chartered Accountant',
   location: 'Bengaluru, Karnataka',
@@ -61,9 +61,11 @@ export const footerQuickLinks: NavLink[] = [
 
 export const footerServiceLinks: NavLink[] = [
   { label: 'Fractional CFO Services', href: '#services' },
-  { label: 'Financial Due Diligence', href: '#services' },
-  { label: 'Investment Readiness', href: '#services' },
-  { label: 'Business Structuring & Compliance', href: '#services' },
+  { label: 'Business Structuring & Compliance Setup', href: '#services' },
+  { label: 'Financial & Tax Due Diligence', href: '#services' },
+  { label: 'Contract Financial Risk Management', href: '#services' },
+  { label: 'Investment Readiness Support', href: '#services' },
+  { label: 'DPDP Act 2023 Implementation', href: '#services' },
 ];
 
 export const legalText =
