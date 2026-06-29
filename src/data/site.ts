@@ -37,7 +37,7 @@ export const site = {
   location: 'Bengaluru, Karnataka',
 
   contact: {
-    email: 'hello@strategycircle.in',
+    email: 'hello@strategycircle.co.in',
     phone: '+91 9585442481',
     // tel: link form (digits only) for accessibility on mobile
     phoneHref: 'tel:+919585442481',
@@ -68,5 +68,9 @@ export const footerServiceLinks: NavLink[] = [
   { label: 'DPDP Act 2023 Implementation', href: '#services' },
 ];
 
+export const legalLinks: NavLink[] = [
+  { label: 'Privacy Notice', href: '/privacy-notice' },
+];
+
 export const legalText =
-  '© 2026 Strategy Circle. All rights reserved. | CA Swetha Ranganathan | Privacy Policy | Terms of Use';
+  '© 2026 Strategy Circle. All rights reserved. | CA Swetha Ranganathan';
