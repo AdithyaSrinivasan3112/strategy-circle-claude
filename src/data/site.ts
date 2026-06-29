@@ -9,7 +9,7 @@
  * Replace with the live Calendly (or contact) URL when ready.
  * e.g. 'https://calendly.com/strategycircle/strategy-call'
  */
-export const calendlyUrl = '#contact';
+export const calendlyUrl = 'https://calendly.com/swetharam250/30min';
 
 /** Swetha's LinkedIn profile. */
 export const linkedinUrl = 'https://www.linkedin.com/in/swetharanganathan2';
